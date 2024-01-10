@@ -1,4 +1,4 @@
-import { Exclude, Expose, Transform } from 'class-transformer';
+import { Exclude } from 'class-transformer';
 import { IsNotEmpty, Length } from 'class-validator';
 
 export class CreateUserDto {
